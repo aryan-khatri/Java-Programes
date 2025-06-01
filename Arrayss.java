@@ -15,6 +15,11 @@ public class Arrayss {
         marks[3] = 60;
         marks[4] = 50;
 
+        // for charcter you can enter this array will be like this 
+        // char[] names = new char[10];
+        // names[0] = 'a';
+
+
         // Print the last element of the array
         System.out.println("Last mark: " + marks[4]);
 
@@ -23,19 +28,22 @@ public class Arrayss {
 
         // ------------------- SORTING AN ARRAY -------------------------
         // Sorting the array and checking how it changes a specific index
-        System.out.println("Before sorting, marks[2]: " + marks[2]);
+        System.out.println("Before sorting, marks[1]: " + marks[1]);
         Arrays.sort(marks);
-        System.out.println("After sorting, marks[2]: " + marks[2]);
+        System.out.println("After sorting, marks[1]: " + marks[1]);
 
         // --------------------- 1D ARRAY (ALTERNATE WAY) ----------------
         int[] markss = {90, 80, 98, 89};
         System.out.println("First element of markss: " + markss[0]);
 
+        char[] name = { 'a', 'r', 'y', 'a', 'n'};
+        System.out.println("index of name: " + name[2]);
+
         // ---------------------- 2D ARRAY -------------------------------
-        int[][] finalMarks = {{97, 98, 95},{95, 95, 98}};
+        int[][] finalMarks = {{97, 98, 99},{100, 101, 102}};
 
         // Accessing 2D array element
-        System.out.println("Element at [0][1] in finalMarks: " + finalMarks[0][1]);
+        System.out.println("Element at [0][1] in finalMarks: " + finalMarks[0][2]);
 
         // ---------------------- TYPE CASTING ---------------------------
         // There are two types of type casting:
@@ -44,7 +52,7 @@ public class Arrayss {
 
         // Implicit Casting Example:
         double price = 122.00;
-        double finalPrice = 18;
+        double finalPrice = 18 + price;
         System.out.println("Final price: " + finalPrice);
 
         // Explicit Casting Example:

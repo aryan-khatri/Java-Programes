@@ -15,7 +15,7 @@ public class input {
 
         // Scanner dd = new Scanner (System.in);
         // System.out.println("Enter any int value: ");
-        // float agee = dd.nextInt();
+        // float agee = dd.nextFloat();
         // System.out.println("Age is in float value: " + agee);
 
         // Scanner sc = new Scanner(System.in);

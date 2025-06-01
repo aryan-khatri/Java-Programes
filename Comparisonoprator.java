@@ -14,7 +14,7 @@ public class Comparisonoprator {
     // if, else if, else, switch 
 
     // loop
-    // for, while, do while 
+    // for, while, do while, nested
 
 
     // for (int i = 100; i <= 50; i = i+1){
