@@ -201,3 +201,4 @@ public static void main(String[] args) {
         pat1(n);
 }
 }
+

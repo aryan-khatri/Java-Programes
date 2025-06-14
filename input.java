@@ -36,12 +36,12 @@ public class input {
         String name = sc.nextLine();
         System.out.println("Name is - " + name);
 
-        int age = sc.nextInt();
         System.out.println("Enter age: ");
+        int age = sc.nextInt();
         System.out.println("age - " + age);
 
-        float agee = sc.nextFloat();
         System.out.println("Enter agian: ");
+        float agee = sc.nextFloat();
         System.out.println("age float - " + agee);
 
 
