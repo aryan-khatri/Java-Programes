@@ -44,6 +44,16 @@ public class input {
         float agee = sc.nextFloat();
         System.out.println("age float - " + agee);
 
+        // System.out.println("Enter name");
+        // Scanner names =  new Scanner (System.in);
+        // String nam = names.nextLine();
+        // System.out.println(nam);
+
+        // int ageee = names.nextInt();
+        // String oper = nam +" "+ageee;
+        // System.out.println(oper);
+
+
 
 
         
